@@ -13,7 +13,7 @@ palabra = input("Ingrese una cadena de texto: ").lower()
 contador = 0
 for vocal in vocales:
     for letra in palabra:
-        if i == letra:
+        if vocal == letra:
             contador +=1
 
 print(contador)
